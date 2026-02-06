@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/giglar/static/css/main.54aa56d4.css",
-    "main.js": "/giglar/static/js/main.2ab485ac.js",
+    "main.js": "/giglar/static/js/main.b0f30b64.js",
     "index.html": "/giglar/index.html",
     "main.54aa56d4.css.map": "/giglar/static/css/main.54aa56d4.css.map",
-    "main.2ab485ac.js.map": "/giglar/static/js/main.2ab485ac.js.map"
+    "main.b0f30b64.js.map": "/giglar/static/js/main.b0f30b64.js.map"
   },
   "entrypoints": [
     "static/css/main.54aa56d4.css",
-    "static/js/main.2ab485ac.js"
+    "static/js/main.b0f30b64.js"
   ]
 }
