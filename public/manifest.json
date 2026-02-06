@@ -1,0 +1,15 @@
+{
+  "short_name": "GiglarConcept",
+  "name": "GiglarConcept - Cybersecurity Solutions",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "any"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#00cc6a",
+  "background_color": "#ffffff"
+}

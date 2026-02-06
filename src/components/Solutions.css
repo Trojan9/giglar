@@ -1,0 +1,108 @@
+.solutions {
+  padding: 80px 20px;
+  background: #f8f9fa;
+  position: relative;
+}
+
+.solutions .section-title {
+  color: #1a1a1a;
+}
+
+.solutions .section-subtitle {
+  color: #666;
+}
+
+.solutions-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.solution-card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.solution-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.07);
+  transition: all 0.3s ease;
+  border: 1px solid transparent;
+  cursor: pointer;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.solution-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0, 204, 106, 0.2);
+  border-color: #00cc6a;
+}
+
+.learn-more {
+  margin-top: auto;
+  padding-top: 1.5rem;
+  color: #00cc6a;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: all 0.3s ease;
+}
+
+.solution-card:hover .learn-more {
+  transform: translateX(5px);
+}
+
+.solution-icon {
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(135deg, #00cc6a 0%, #00a855 100%);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.solution-card:hover .solution-icon {
+  transform: scale(1.1) rotate(5deg);
+}
+
+.solution-icon svg {
+  width: 32px;
+  height: 32px;
+  color: white;
+}
+
+.solution-card h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #1a1a1a;
+}
+
+.solution-card p {
+  color: #666;
+  line-height: 1.7;
+  font-size: 0.95rem;
+}
+
+@media (max-width: 768px) {
+  .solutions {
+    padding: 60px 20px;
+  }
+
+  .solutions-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .solution-card {
+    padding: 1.5rem;
+  }
+}
