@@ -3,6 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 import './App.css';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import ScrollToTop from './components/ScrollToTop';
 import Home from './pages/Home';
 import SecurityManagedServices from './pages/SecurityManagedServices';
 import SecurityTransformation from './pages/SecurityTransformation';
@@ -16,6 +17,7 @@ import CloudSecurity from './pages/CloudSecurity';
 function App() {
   return (
     <div className="App">
+      <ScrollToTop />
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
